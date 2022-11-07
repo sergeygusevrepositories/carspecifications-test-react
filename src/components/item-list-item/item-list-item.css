@@ -1,0 +1,10 @@
+.item-list-item button {
+    margin-left: 10px;
+}
+
+.item-list-item {
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

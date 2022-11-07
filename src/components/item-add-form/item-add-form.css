@@ -1,0 +1,17 @@
+.item-add-form {
+    margin-left: 20px;
+}
+
+.item-add-form input {
+    margin-right: 3px;
+}
+
+.item-add-form.d-flex {
+    /*right: 0;*/
+    /*position: absolute;*/
+}
+
+.item-add-form-parent {
+    display: flex;
+    align-items: center;
+}
