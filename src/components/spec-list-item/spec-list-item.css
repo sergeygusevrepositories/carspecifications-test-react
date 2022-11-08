@@ -1,5 +1,9 @@
 .todo-list-item {
     font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
 }
 
 .todo-list-item button {
@@ -11,15 +15,6 @@
     line-height: 35px;
     cursor: pointer;
     user-select: none;
-}
-
-.todo-list-item.done .todo-list-item-label {
-    /*text-decoration: line-through;*/
-}
-
-.todo-list-item.important .todo-list-item-label {
-    /*font-weight: bold;*/
-    /*color: steelblue;*/
 }
 
 .spec-list-item {

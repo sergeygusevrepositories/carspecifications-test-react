@@ -1,8 +1,8 @@
 import React from "react";
-import TodoListItem from '../todo-list-item'
-import './todo-list.css'
+import TodoListItem from '../spec-list-item'
+import './spec-list.css'
 
-const TodoList = ( { todos, onDeleted, onToggleImportant, onToggleDone } ) => {
+const SpecList = ({ todos, onDeleted, onToggleImportant, onToggleDone } ) => {
 
     const elements = todos.map((item) => {
 
@@ -26,4 +26,4 @@ const TodoList = ( { todos, onDeleted, onToggleImportant, onToggleDone } ) => {
     )
 }
 
-export default TodoList
+export default SpecList

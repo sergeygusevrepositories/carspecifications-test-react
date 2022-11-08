@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
-import './todo-list-item.css'
+import './spec-list-item.css'
 import ItemAddForm from'../item-add-form';
 
-export default class TodoListItem extends Component {
+export default class SpecListItem extends Component {
 
     render() {
 

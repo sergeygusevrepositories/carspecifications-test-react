@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-import SpecList from '../todo-list'
+import SpecList from '../spec-list'
 import AppHeader from '../app-header'
-import SearchPanel from '../search-panel'
-import ItemStatusFilter from '../item-status-filter'
 import SpecAddForm from'../spec-add-form'
 import './app.css'
 
@@ -90,14 +88,6 @@ export default class App extends Component {
                 todoData: this.toggleProperty(todoData, id, 'important')
             }
         })
-    }
-
-    onSearchChange = (term) => {
-        this.setState({ term })
-    }
-
-    onFilterChange = (filter) => {
-        this.setState({ filter })
     }
 
     search(items, term) {
